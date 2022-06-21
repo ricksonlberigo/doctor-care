@@ -122,8 +122,6 @@
     border: none;
   }
 
-  /* ===== VARIABLES =============== */
-
   /* ===== GERAL =============== */
   section {
     padding-block: 16rem;
@@ -204,8 +202,14 @@
   }
 
   #services .services__container {
-    grid-template-columns: repeat(3, 1fr);
+    flex-direction: row;
+    flex-wrap: wrap;
     gap: 4rem;
+  }
+
+  #services .service {
+    width: 30%;
+    flex-grow: 1;
   }
 
   /* ===== ABOUT =============== */
