@@ -399,7 +399,7 @@ body.menu-expanded .menu .button {
 
 #testimonials blockquote {
   padding: 2.4rem;
-  background-color: var(--brand-light);
+  background-color: var(--brand-lighter);
   border-radius: 0.6rem;
 }
 
@@ -416,7 +416,7 @@ body.menu-expanded .menu .button {
   align-items: center;
   font-weight: 700;
   font-style: normal;
-  color: var(--brand);
+  color: var(--gray-headline);
 }
 
 #testimonials blockquote cite img {
