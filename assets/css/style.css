@@ -151,6 +151,11 @@ section {
   transform: translateY(-20%);
 }
 
+#about img,
+#contact img {
+  border-radius: 0.4rem;
+}
+
 /* custom colors */
 nav .logo svg path[fill*='00856F'] {
   fill: var(--brand);

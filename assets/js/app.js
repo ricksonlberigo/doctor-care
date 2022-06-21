@@ -91,11 +91,11 @@ ScrollReveal({
   distance: '30px',
   reset: true,
 }).reveal(`
-#home .header__section, #home .content, #home .stats, #home .stats .stat,
+#home .col-a, #home .col-b, #home .col-c , #home .stats, #home .stats .stat,
 #services .header__section, #services .service,
-#about .header__section, #about .content,
+#about .col-a, #about .col-b,
 #testimonials .header__section,
-#contact .header__section, #contact .col-b,
+#contact .col-a, #contact .col-b,
 #footer .footer__brand, #footer .social__list
 `)
 
