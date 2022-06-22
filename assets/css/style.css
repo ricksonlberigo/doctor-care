@@ -392,29 +392,6 @@ body.menu-expanded .menu .button {
   margin-bottom: 6rem;
 }
 
-/* ===== CTA BANNER =============== */
-.cta__container {
-  background: var(--brand);
-  padding: 2.6rem 3.2rem;
-  border-radius: 1rem;
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-
-.cta__container h2 {
-  font-size: var(--l-font-size);
-  color: white;
-}
-
-.cta__container .button {
-  font-size: 1.2rem;
-}
-
-.cta__container .button-secondary:hover svg path {
-  fill: white;
-}
-
 /* ===== TESTIMONIALS =============== */
 #testimonials {
   background-color: white;
