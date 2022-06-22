@@ -229,6 +229,35 @@
     align-self: center;
   }
 
+  /* ===== CTA BANNER =============== */
+  #ctaBanner {
+    padding-block: 0;
+  }
+
+  .cta__container {
+    background: var(--brand);
+    padding: 10rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .cta__container h2 {
+    font-size: var(--xl-font-size);
+    color: white;
+    max-width: 20ch;
+  }
+
+  .cta__container .button {
+    font-size: var(--sm-font-size);
+  }
+
+  .cta__container .button-secondary:hover svg path {
+    fill: white;
+  }
+
   /* ===== TESTIMONIALS =============== */
   #testimonials .header__section {
     max-width: 60rem;
